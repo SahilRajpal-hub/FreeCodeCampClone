@@ -1,0 +1,2 @@
+To start the project, first go into backend folder and make .env file and add variables as given in example.env and run `npm install` and then `npm start`. This will start the backend.
+For Frontend go inside the frontend folder and run `npm install` and `npm start`
