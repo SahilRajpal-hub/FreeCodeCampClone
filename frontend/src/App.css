@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cont {
+    display: flex;
+    height: 100vh;
+    /* width: 100vw; */
+    flex-direction: column;
+    /* border: 1px solid black; */
+    background-color: aqua;
+}
+
+.nvb {
+    height: 6vh;
+    display: flex;
+    background-color: #0A0A23;
+}
+
+.page {
+    height: 95vh;
+    background-color: #F5F6F7;
+    padding: 4vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin: 7px 0;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1 1 0;
+}
+
+.lastEle {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    margin-right: 15px;
+    flex: 1 1 0;
+    justify-content: flex-end;
+}
+
+.menuBtn {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-family: "lato","sans-serif";
+    font-size: 16px;
+    max-height: calc(var(--header-height) - 8px);
+    padding: 2px 14px;
+    background-color: #0A0A23;
+    color: white;
+    border: 1px solid white;
+    margin: 2px 1px;
+}
+
+.signInButton {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-family: "Lato","sans-serif";
+    font-size: 18px;
+    max-height: calc(var(--header-height) - 8px);
+    padding: 2px 14px;
+    background-image: linear-gradient(#fecc4c,#ffac33);
+    color: black;
+    border: 3px solid #feac32;
+    margin: 2px 1px;
+}
+
+.srch  {
+    align-items: center;
+    display: flex;
+    width: 27vw;
+    margin: 5px;
+    margin-left: 20px;
+    text-align: left;
+    background-color: #3B3B4F;
+    border: 0px solid #198EEE;
+    color: white;
+    flex: 1 1 0;
+}
+
+::placeholder { 
+    color: #D0D0D5;
+    opacity: 1;
+    margin-right: 10px;
+}
+
+.big-heading {
+    font-weight: 700;
+    height: 100%;
+    line-height: 1.1;
+    margin-bottom: 40px
+}
+
+.rw {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.apple_logo {
+    height: 40px;
+}
+
+.google_logo {
+    height: 30px;
+    margin-top: 10px;
+}
+
+.microsoft_logo {
+    height: 30px;
+    margin-top: 10px;
+}
+
+
+.App {
+  background-color: white;
+}
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
